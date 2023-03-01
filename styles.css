@@ -30,3 +30,34 @@ a {
     color: #F9FAF8;
     text-decoration: none;
 }
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 160px;
+    gap: 120px;
+}
+
+.hero-container > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-container > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.hero-container > button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 6px 26px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+}

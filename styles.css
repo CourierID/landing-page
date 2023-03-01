@@ -81,9 +81,29 @@ a {
     display: flex;
     text-align: center;
     gap: 32px;
+    margin-bottom: 120px;
 }
 
 .blurb > img {
     border: 5px cornflowerblue solid;
     border-radius: 10px;
+}
+
+.quote-container { 
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 240px;
+    gap: 16px;
+}
+
+.quote-container > .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-container > .attribution {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
 }

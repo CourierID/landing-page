@@ -136,3 +136,16 @@ a {
     text-decoration: none;
     border-radius: 6px;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    color: white;
+    font-weight: 300;
+}

@@ -107,3 +107,32 @@ a {
     font-weight: bold;
     font-size: 20px;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    gap: 164px;
+    padding: 48px 96px;
+    border-radius: 8px;
+}
+
+.action-text {
+    color: #F9FAF8;
+}
+
+.action-container > button {
+    background-color: #3882F6;
+    border: 2px white solid;
+    color: white;
+    padding: 6px 26px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+}
